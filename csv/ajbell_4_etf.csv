@@ -1,0 +1,9 @@
+index,name,isin,url,keyword,sheet
+8,21Shares Bitcoin ETP USD,CH0454664001,https://www.ajbell.co.uk/market-research/LSE:BTCU,,ETF
+14,21Shares Ethereum Staking ETP USD,CH0454664027,https://www.ajbell.co.uk/market-research/LSE:ETHU,,ETF
+20,Alerian Midstream Energy Dividend ETF A GBP,IE00BKPTXQ89,https://www.ajbell.co.uk/market-research/LSE:PMLP,"This share can be held in a Dealing account, Stocks and shares ISA, Lifetime ISA, JISA and SIPP",ETF
+26,Amundi BlmbrgEqualweightCmdexAgrETFAcc USD,LU1829218749,https://www.ajbell.co.uk/market-research/LSE:COMU,"This share can be held in a Dealing account, Stocks and shares ISA, Lifetime ISA, JISA and SIPP",ETF
+33,Amundi Core EUR High Yield Bd ETF£HAcc,LU3206575048,https://www.ajbell.co.uk/market-research/LSE:GHYA,This share can be held in a Dealing account,ETF
+39,Amundi Core MSCI Emerg Mkts Swp ETF Acc,LU2573967036,https://www.ajbell.co.uk/market-research/LSE:LEMA LN,"This share can be held in a Dealing account, Stocks and shares ISA, Lifetime ISA, JISA and SIPP",ETF
+45,Amundi Core MSCI Japan ETF GBP H Acc,LU1781541682,https://www.ajbell.co.uk/market-research/LSE:LCJG,"This share can be held in a Dealing account, Stocks and shares ISA, Lifetime ISA, JISA, SIPP, Regular investment and Dividend reinvestment",ETF
+51,Amundi Core S&P 500 Swap ETF Acc GBP,LU1135865084,https://www.ajbell.co.uk/market-research/LSE:SP5L,"This share can be held in a Dealing account, Stocks and shares ISA, Lifetime ISA, JISA, SIPP, Regular investment and Dividend reinvestment",ETF
