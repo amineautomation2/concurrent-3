@@ -3,6 +3,9 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# LibreOfficle lockfiles
+.~lock.*
+*.~lock.*
 # C extensions
 *.so
 
