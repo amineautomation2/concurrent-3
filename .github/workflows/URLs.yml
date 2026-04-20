@@ -5,7 +5,7 @@ on:
 
 env:
   IDLE_TIME: 60
-  OUTPUT_XLSX: ajbell.xlsx
+  OUTPUT_XLSX: financial_discount.xlsx
 
 jobs:
   url-investment:
@@ -23,7 +23,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Fetch URLs
-        run: python main.py --url MF
+        run: python main.py --url
 
       - name: Upload Spreadsheet
         uses: actions/upload-artifact@v6

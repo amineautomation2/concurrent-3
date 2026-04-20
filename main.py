@@ -1,7 +1,8 @@
 import argparse
 import time
-from financial_discount import financial_discount_runner, get_financial_url
-from utils import clean_spreadsheet, delay, get_xlsx_filepath
+from financial_discount import financial_discount_runner
+from financial_discount.urls import get_financial_url
+from utils import clean_spreadsheet, get_xlsx_filepath
 from worker import (
     merge_csv_to_xlsx,
 )
