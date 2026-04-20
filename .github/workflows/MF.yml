@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 env:
-  ARTIFACT_NAME: results-mf-csv
+  ARTIFACT_NAME: financial-discount-csv
 
 jobs:
   worker:
@@ -28,16 +28,16 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Cleanup CSV
-        run: rm -rf csv/*_mf.csv
+        run: rm -rf csv/*.csv
       
       - name: Run Scraper Chunk
-        run: python main.py --id ${{ matrix.chunk }} --sheet MF
+        run: python main.py --id ${{ matrix.chunk }}
 
       - name: Upload MF Partial Data
         uses: actions/upload-artifact@v6
         with:
           name: ${{env.ARTIFACT_NAME}}-${{ matrix.chunk }}
-          path: csv/ajbell_${{ matrix.chunk }}_mf.csv
+          path: csv/financial_discount_${{ matrix.chunk }}.csv
           if-no-files-found: error
 
   merge-results:
@@ -69,12 +69,12 @@ jobs:
           merge-multiple: true
 
       - name: Merge and Commit
-        run: python main.py --sheet MF
+        run: python main.py --save
 
       - name: Upload Spreadsheet
         uses: actions/upload-artifact@v6
         with:
-          name: ajbell-mf
+          name: financial-discount
           path: spreadsheet
           if-no-files-found: error
 

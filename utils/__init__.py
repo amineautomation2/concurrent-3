@@ -131,7 +131,7 @@ def read_json(filename: str):
 
 
 def fetch_with_backoff(
-    url, headers=get_random_user_agent(), cookies=None, max_retries=5, base_delay=2
+    url, headers=get_random_user_agent(), cookies=None, max_retries=3, base_delay=2
 ):
     for attempt in range(max_retries):
         try:
