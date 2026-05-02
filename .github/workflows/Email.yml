@@ -29,7 +29,8 @@ jobs:
         with:
           name: financial-discount
           # This ensures the file is placed where the script expects it
-          path: .
+          path: spreadsheet/financial_discount.xlsx
+
       - name: Setup Python
         uses: actions/setup-python@v6
         with:
