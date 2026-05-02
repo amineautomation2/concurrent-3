@@ -51,11 +51,6 @@ def create_spreadsheet(filename, sheet_names, column_names, col_width=25):
     wb.save(filename)
 
 
-create_spreadsheet("abc.xlsx",
-                   ["Investment", "ETF", "MF"],
-                   ["Name", "ISIN", "URL", "Keyword"])
-
-
 def get_random_user_agent() -> dict:
     options = OptionsUA()
     options.version_ranges = {
