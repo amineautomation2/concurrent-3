@@ -27,3 +27,4 @@ jobs:
   run-email-workflow:
     #needs: run-mf-workflow
     uses: ./.github/workflows/Email.yml
+    secrets: inherit
