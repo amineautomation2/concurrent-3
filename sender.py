@@ -28,7 +28,7 @@ msg['To'] = EMAIL_TO
 msg.set_content("Please see attached spreadsheet.")
 
 with open(FILE, 'rb') as f:
-    print(FILE)
+    # print(FILE)
     file_data = f.read()
     msg.add_attachment(file_data, maintype='application',
                        subtype='xlsx', filename=filename)
