@@ -14,7 +14,7 @@ index,name,isin,url
 244,Artemis Strategic Bond I Monthly Acc,GB00BJT0KV40,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/K7PP/U/?specialunittype=ORDN&priipproductcode=
 264,Atlantic House Dynamic Duration Class D Dis GBP,IE00BMY8S546,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/VDDI/DC/?specialunittype=ORDN&priipproductcode=
 284,Aviva Inv Multi-asset Core I 2,GB00BMGWGY97,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/DDWY/U/?specialunittype=ORDN&priipproductcode=
-304,Aviva Inv UK Listed Small and Mid-Cap 2,,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/NA55/U/?specialunittype=ORDN&priipproductcode=
+304,Aviva Inv UK Listed Small and Mid-Cap 2,GB0004460571,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/NA55/U/?specialunittype=ORDN&priipproductcode=
 324,AXA Framlington Health Z Inc,GB00BRJZVQ71,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/M4KM/U/?specialunittype=ORDN&priipproductcode=
 344,AXA Global Sustainable Managed Z Inc,GB00B7MQY793,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/11VM/U/?specialunittype=ORDN&priipproductcode=
 364,Baillie Gifford American B Inc,GB0006061856,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/BG54/U/?specialunittype=ORDN&priipproductcode=
@@ -28,12 +28,12 @@ index,name,isin,url
 524,BlackRock GF World Technology D2 GBP,LU0827890491,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/F36D/DC/?specialunittype=ORDN&priipproductcode=
 544,BlackRock Natural Resources D Inc,GB00B46KYQ57,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/NOV1/U/?specialunittype=ORDN&priipproductcode=
 564,BlackRock US Mid-Cap Value D Inc,GB00B80S7M00,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/GU00/U/?specialunittype=ORDN&priipproductcode=
-584,BNY Mellon Efficient Global High Yield Beta W Hedged Acc GBP,,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/T7QR/DC/?specialunittype=ORDN&priipproductcode=
+584,BNY Mellon Efficient Global High Yield Beta W Hedged Acc GBP,IE00BMYM6D06,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/T7QR/DC/?specialunittype=ORDN&priipproductcode=
 604,BNY Mellon Global Absolute Return Inst W Inc,GB00B841JM97,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/I8XY/U/?specialunittype=ORDN&priipproductcode=
 624,BNY Mellon Global Multi-Strategy Inst W Acc,GB00B84QL393,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/I8YG/U/?specialunittype=ORDN&priipproductcode=
 644,BNY Mellon Multi-Asset Growth Inst W Acc,GB00B8454P92,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/GQJE/U/?specialunittype=ORDN&priipproductcode=
 664,BNY Mellon US Equity Income Fund W Inc GBP,IE00BD5M7551,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/NQGP/O/?specialunittype=ORDN&priipproductcode=
-684,Capital Group European Core Equity Fund (LUX) Zd GBP,,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/F8KK/O/?specialunittype=ORDN&priipproductcode=
+684,Capital Group European Core Equity Fund (LUX) Zd GBP,LU0817813628,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/F8KK/O/?specialunittype=ORDN&priipproductcode=
 704,Capital Group New World Fund (LUX) Z GBP,LU1481181169,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/C1IK/O/?specialunittype=ORDN&priipproductcode=
 724,CG AJ Bell Cautious I Acc,GB00BYW8RV97,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/NT3G/U/?specialunittype=ORDN&priipproductcode=
 744,CT (Lux) Enhanced Commodities ZGH GBP,LU0815286082,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/G29H/DC/?specialunittype=CHDG&priipproductcode=
@@ -64,14 +64,14 @@ index,name,isin,url
 1244,Guinness Emerging Markets Equity Income F Dist GBP,IE00BYV24X31,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/NP8P/O/?specialunittype=ORDN&priipproductcode=
 1264,HSBC Corporate Bond C Inc,GB00B7X4RF18,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/GTND/U/?specialunittype=ORDN&priipproductcode=
 1284,HSBC Global Responsible Multi-Asset Cautious Portfolio C Acc,GB00BLKQD051,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/QY3W/U/?specialunittype=ORDN&priipproductcode=
-1304,HSBC Pacific Index C Acc,GB00B80QGT40,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/G19I/U/?specialunittype=ORDN&priipproductcode=
+1304,HSBC Pacific Index C Acc,,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/G19I/U/?specialunittype=ORDN&priipproductcode=
 1324,HSBC World Selection Conservative Portfolio IC Inc,GB00BQ15ZG67,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/KX5K/U/?specialunittype=ORDN&priipproductcode=
 1344,IFSL atomos Cautious A Acc,GB00BHZ0D488,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/PYGR/U/?specialunittype=ORDN&priipproductcode=
 1364,IFSL Magnus Max 35% Equity X Acc,GB00BSLNS216,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/BVWU8/U/?specialunittype=ORDN&priipproductcode=
 1384,IFSL Marlborough Special Situations P Acc,GB00B907GH23,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/I3PE/U/?specialunittype=ORDN&priipproductcode=
 1404,Impax Asian Environmental Markets X Acc GBP,IE00BYQ91839,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/N00Y/O/?specialunittype=ORDN&priipproductcode=
 1424,Invesco European Smaller Companies (UK) Z Acc,GB00B8N46C80,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/GUXT/U/?specialunittype=ORDN&priipproductcode=
-1444,Invesco High Yield (UK) Z Acc,GB00B8N45980,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/GUWE/U/?specialunittype=ORDN&priipproductcode=
+1444,Invesco High Yield (UK) Z Acc,,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/GUWE/U/?specialunittype=ORDN&priipproductcode=
 1464,Invesco Tactical Bond (UK) Z Acc,GB00B8N45T82,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/GUXC/U/?specialunittype=ORDN&priipproductcode=
 1484,iShares Emerging Markets Equity ESG Screened and Optimised Index (UK) D Inc GBP,GB00BN090414,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/UE0S/U/?specialunittype=ORDN&priipproductcode=
 1504,iShares Overseas Government Bond Index (UK) D Acc,GB00B849C803,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/G6IE/U/?specialunittype=ORDN&priipproductcode=
@@ -104,7 +104,7 @@ index,name,isin,url
 2044,Liontrust MA Explorer Income 45 S Inc,GB00BCZW6H33,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/JMMP/U/?specialunittype=ORDN&priipproductcode=
 2064,Liontrust Sustainable Future European Growth 2 Acc,GB0030029390,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/GN17/U/?specialunittype=ORDN&priipproductcode=
 2084,LO All Roads Syst. NAV Hdg NA GBP,,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/0QTJ/O/?specialunittype=CHDG&priipproductcode=
-2104,M&G Episode Allocation I Acc GBP,GB00B73RVW51,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/0ZCR/U/?specialunittype=ORDN&priipproductcode=
+2104,M&G Episode Allocation I Acc GBP,,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/0ZCR/U/?specialunittype=ORDN&priipproductcode=
 2124,M&G Global Floating Rate High Yield IH Inc GBP,GB00BMP3SD68,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/KJHV/U/?specialunittype=CHDG&priipproductcode=
 2144,M&G Global Themes I Inc GBP,GB00B76CZD62,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/0ZDS/U/?specialunittype=ORDN&priipproductcode=
 2164,M&G North American Value I Acc GBP,GB00B61S4242,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/0ZFA/U/?specialunittype=ORDN&priipproductcode=
@@ -124,14 +124,14 @@ index,name,isin,url
 2444,Ninety One Global Sustainable Equity I Acc GBP,GB00B01VDL32,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/IE54/U/?specialunittype=ORDN&priipproductcode=
 2464,Nordea 1 GBP Diversified Return BI GBP,LU1224691151,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/E1US/O/?specialunittype=ORDN&priipproductcode=
 2484,Pictet Biotech I dy GBP,LU0448836352,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/GLJ4/O/?specialunittype=ORDN&priipproductcode=
-2504,Pictet Robotics I GBP,LU1316549283,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/E1PY/O/?specialunittype=ORDN&priipproductcode=
+2504,Pictet Robotics I GBP,,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/E1PY/O/?specialunittype=ORDN&priipproductcode=
 2524,PIMCO GIS Global Real Return Institutional Hedged Inc GBP,,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/X197/O/?specialunittype=CHDG&priipproductcode=
 2544,Polar Capital Global Convertible I Hedged Inc GBP,IE00BPH3MJ92,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/KOHE/O/?specialunittype=CHDG&priipproductcode=
-2564,Premier Miton Cautious Monthly Income B Inc GBP,GB00B79QBF93,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/GOZP/U/?specialunittype=ORDN&priipproductcode=
+2564,Premier Miton Cautious Monthly Income B Inc GBP,,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/GOZP/U/?specialunittype=ORDN&priipproductcode=
 2584,Premier Miton Global Sustainable Optimum Income C Inc GBP,GB00BFZND652,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/OY1G/U/?specialunittype=ORDN&priipproductcode=
 2604,Premier Miton Multi-Asset Monthly Income C Inc GBP,GB00B7GGPC79,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/GH6I/U/?specialunittype=ORDN&priipproductcode=
 2624,Premier Miton UK Smaller Companies B Inc GBP,GB00B74F2253,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/I0YR/U/?specialunittype=ORDN&priipproductcode=
-2644,Quilter Investors Cirilium Moderate Blend Portfolio U1 Acc GBP,,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/QCL5/U/?specialunittype=ORDN&priipproductcode=
+2644,Quilter Investors Cirilium Moderate Blend Portfolio U1 Acc GBP,GB00BJV3LY15,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/QCL5/U/?specialunittype=ORDN&priipproductcode=
 2664,Rathbone Ethical Bond Fund I Acc GBP,GB00B77DQT14,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/0WF6/U/?specialunittype=ORDN&priipproductcode=
 2684,Rathbone Strategic Growth Portfolio S Inc GBP,GB00B86NX655,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/GRYI/U/?specialunittype=ORDN&priipproductcode=
 2704,River Global RGI Global Income and Growth B Acc GBP,GB00BTLMGR60,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/BTHAH/U/?specialunittype=ORDN&priipproductcode=
@@ -160,7 +160,7 @@ index,name,isin,url
 3164,TM UBS (UK) Balanced C Inc,GB00B63FZY28,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/NFG2/U/?specialunittype=ORDN&priipproductcode=
 3184,TM UBS (UK) Growth C Inc,GB00B6528P31,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/A08K/U/?specialunittype=ORDN&priipproductcode=
 3204,TrinityBridge Diversified Income X Inc,GB00B5N0YZ48,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/GOXA/U/?specialunittype=ORDN&priipproductcode=
-3224,Trojan O Acc,,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/OM98/U/?specialunittype=ORDN&priipproductcode=
+3224,Trojan O Acc,GB00B01BP952,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/OM98/U/?specialunittype=ORDN&priipproductcode=
 3244,UBS Global Allocation UK C Acc,GB00B4MGDQ07,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/G5QR/U/?specialunittype=ORDN&priipproductcode=
 3264,Unicorn UK Smaller Companies B Inc GBX,GB0031785065,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/UD44/U/?specialunittype=ORDN&priipproductcode=
 3284,Vanguard FTSE Developed World ex-UK Equity Index A Acc GBP,GB00B59G4Q73,https://investorhub.financialexpress.net/Pdf/fdd/en-gb/fdd/FPC9/U/?specialunittype=ORDN&priipproductcode=
