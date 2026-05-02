@@ -1,8 +1,9 @@
 import argparse
+import os
 import time
 from financial_discount import financial_discount_runner
 from financial_discount.urls import get_financial_url
-from utils import clean_spreadsheet, get_xlsx_filepath
+from utils import clean_spreadsheet, get_xlsx_filepath, create_spreadsheet
 from worker import (
     merge_csv_to_xlsx,
 )
@@ -11,26 +12,30 @@ from worker import (
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--id", type=str, help="id worker")
+    parser.add_argument("--max", type=str, help="max worker")
     parser.add_argument("--save", action='store_true', help="sheet name")
     parser.add_argument("--url", action='store_true', help="sheet name")
 
     args = parser.parse_args()
     xlsx_out = get_xlsx_filepath("financial_discount.xlsx")
     if args.url:
-        clean_spreadsheet(xlsx_out)
+        xlsx = os.path.join("spreadsheet", "financial_discount.xlsx")
+        create_spreadsheet(xlsx, ["Funds"], ["Name", "ISIN", "URL"])
         get_financial_url(xlsx_out)
 
-    elif args.id:
+    elif args.id and args.max:
         # id_worker = int(sys.argv[1])
         start = time.perf_counter()
-        financial_discount_runner(id_worker=int(args.id), max_worker=5)
+        financial_discount_runner(id_worker=int(
+            args.id), max_worker=int(args.max))
         elapsed = time.perf_counter() - start
         print(f"Execution time: {elapsed:.2f} seconds.")
         return
 
     elif args.save:
         merge_csv_to_xlsx(
-            xlsx_out, ["name", "isin", "url"], "Funds")
+            xlsx_out, ["name", "isin", "url"], "Funds",
+            "_isin.csv")
         return
 
 

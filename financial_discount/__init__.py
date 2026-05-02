@@ -68,6 +68,6 @@ def financial_discount_runner(id_worker: int, max_worker: int) -> None:
             fund.update(dict(isin=isin))
         delay(2, 4)
 
-    csv = f"financial_discount_{id_worker}.csv"
+    csv = f"financial_discount_{id_worker}_isin.csv"
     fields = ["index", "name", "isin", "url"]
     write_csv_by_id(csv, funds_per_worker, fields)

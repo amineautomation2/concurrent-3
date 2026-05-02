@@ -67,12 +67,12 @@ def process_data(
     return fn(data)
 
 
-def merge_csv_to_xlsx(xlsx_out: str, fields: list[str], sheet: str):
+def merge_csv_to_xlsx(xlsx_out: str, fields: list[str], sheet: str, pattern: str):
     # xlsx_in = os.path.join(os.getcwd(), "spreadsheet", "hl.xlsx")
     combined_data = []
     csv_dir = os.path.join(os.getcwd(), "csv")
     for filename in os.listdir(csv_dir):
-        if filename.endswith(f"{sheet.lower()}.csv"):
+        if filename.endswith(pattern):
             file_path = os.path.join(csv_dir, filename)
             data = read_csv(file_path)
             if data:
