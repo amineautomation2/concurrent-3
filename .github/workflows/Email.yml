@@ -3,10 +3,10 @@ on:
   workflow_call:
   workflow_dispatch:
 
-env:
-  EMAIL_USERNAME: ${{secrets.EMAIL_USERNAME}}
-  EMAIL_PASSWORD: ${{secrets.EMAIL_PASSWORD}}
-  EMAIL_DEV: ${{ secrets.EMAIL_DEV }}
+#env:
+#  EMAIL_USERNAME: ${{secrets.EMAIL_USERNAME}}
+#  EMAIL_PASSWORD: ${{secrets.EMAIL_PASSWORD}}
+#  EMAIL_DEV: ${{ secrets.EMAIL_DEV }}
 
 jobs:
   send-email:
@@ -23,16 +23,6 @@ jobs:
 
       - name: Setup Python
         uses: actions/setup-python@v6
-
-      - name: Download Financial Report
-        uses: actions/download-artifact@v4
-        with:
-          name: financial-discount
-          # This ensures the file is placed where the script expects it
-          path: spreadsheet/financial_discount.xlsx
-
-      - name: Setup Python
-        uses: actions/setup-python@v6
         with:
           python-version: '3.12.3'
 
@@ -40,4 +30,19 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Send email
+        id: send_email
         run: python sender.py
+
+      - name: Send mail with attachment
+        uses: dawidd6/action-send-mail@v15
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: ${{ steps.send_email.outputs.email_title }}
+          to: ${{ secrets.EMAIL_DEV }}
+          from: Amine Upwork <${{ secrets.EMAIL_USERNAME }}>
+          body: ""
+          attachments: spreadsheet/financial_discount.xlsx
