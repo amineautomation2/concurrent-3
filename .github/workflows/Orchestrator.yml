@@ -10,20 +10,20 @@ env:
   IDLE_TIME: 60
 
 jobs:
-  run-urls-workflow:
-    uses: ./.github/workflows/URLs.yml
-
-  wait-after-urls:
-    needs: run-urls-workflow
-    if: always()
-    runs-on: ubuntu-latest
-    steps:
-      - run: sleep ${{ env.IDLE_TIME }}
-
-  run-mf-workflow:
-    needs: wait-after-urls
-    uses: ./.github/workflows/MF.yml
-  
+#  run-urls-workflow:
+#    uses: ./.github/workflows/URLs.yml
+#
+#  wait-after-urls:
+#    needs: run-urls-workflow
+#    if: always()
+#    runs-on: ubuntu-latest
+#    steps:
+#      - run: sleep ${{ env.IDLE_TIME }}
+#
+#  run-mf-workflow:
+#    needs: wait-after-urls
+#    uses: ./.github/workflows/MF.yml
+#  
   run-email-workflow:
-    needs: run-mf-workflow
+    #needs: run-mf-workflow
     uses: ./.github/workflows/Email.yml
