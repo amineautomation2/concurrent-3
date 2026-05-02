@@ -33,6 +33,11 @@ jobs:
         id: send_email
         run: python sender.py
 
+      - name: Debug email
+        run: |
+          echo "Sending from: Amine Upwork <${{ secrets.EMAIL_USERNAME }}>"
+
+
       - name: Send mail with attachment
         uses: dawidd6/action-send-mail@v15
         with:
