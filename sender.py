@@ -15,31 +15,30 @@ def email_title(title: str) -> str:
 
 
 # Get the secret from environment variables
-# EMAIL_FROM = os.environ.get('EMAIL_USERNAME')
-# EMAIL_TO = os.environ.get('EMAIL_DEV')
-# PASSWORD = os.environ.get('EMAIL_PASSWORD')
-# filename = "financial_discount.xlsx"
-# FILE = get_xlsx_filepath(filename)
+EMAIL_FROM = os.environ.get('EMAIL_USERNAME')
+EMAIL_TO = os.environ.get('EMAIL_DEV')
+PASSWORD = os.environ.get('EMAIL_PASSWORD')
+filename = "financial_discount.xlsx"
+FILE = get_xlsx_filepath(filename)
 # Create Message
-# msg = EmailMessage()
-# msg['Subject'] = email_title("Financial Discount")
-# msg['From'] = f"Amine Upwork <{EMAIL_FROM}>"
-# msg['To'] = EMAIL_TO
-# msg.set_content("Please see attached spreadsheet.")
-#
-# Attach File (Example: PDF)
-# with open(FILE, 'rb') as f:
-#    print(FILE)
-#    file_data = f.read()
-#    msg.add_attachment(file_data, maintype='application',
-#                       subtype='xlsx', filename=filename)
-#
-# Send via SMTP_SSL
-# with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-#    if EMAIL_FROM and PASSWORD:
-#        smtp.login(EMAIL_FROM, PASSWORD)
-#        smtp.send_message(msg)
-#
+msg = EmailMessage()
+msg['Subject'] = email_title("Financial Discount")
+msg['From'] = f"Amine Upwork <{EMAIL_FROM}>"
+msg['To'] = EMAIL_TO
+msg.set_content("Please see attached spreadsheet.")
 
-with open(os.environ['GITHUB_OUTPUT'], 'a') as fh:
-    print(f"email_title={email_title("Financial Discount")}", file=fh)
+with open(FILE, 'rb') as f:
+    print(FILE)
+    file_data = f.read()
+    msg.add_attachment(file_data, maintype='application',
+                       subtype='xlsx', filename=filename)
+
+# Send via SMTP_SSL
+with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
+    if EMAIL_FROM and PASSWORD:
+        smtp.login(EMAIL_FROM, PASSWORD)
+        smtp.send_message(msg)
+
+
+# with open(os.environ['GITHUB_OUTPUT'], 'a') as fh:
+#    print(f"email_title={email_title("Financial Discount")}", file=fh)

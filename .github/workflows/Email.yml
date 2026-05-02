@@ -3,10 +3,10 @@ on:
   workflow_call:
   workflow_dispatch:
 
-#env:
-#  EMAIL_USERNAME: ${{secrets.EMAIL_USERNAME}}
-#  EMAIL_PASSWORD: ${{secrets.EMAIL_PASSWORD}}
-#  EMAIL_DEV: ${{ secrets.EMAIL_DEV }}
+env:
+  EMAIL_USERNAME: ${{secrets.EMAIL_USERNAME}}
+  EMAIL_PASSWORD: ${{secrets.EMAIL_PASSWORD}}
+  EMAIL_DEV: ${{ secrets.EMAIL_DEV }}
 
 jobs:
   send-email:
@@ -33,21 +33,22 @@ jobs:
         id: send_email
         run: python sender.py
 
-      - name: Debug email
-        run: |
-          echo "Sending from: Amine Upwork <${{ secrets.EMAIL_USERNAME }}>"
-
-
-      - name: Send mail with attachment
-        uses: dawidd6/action-send-mail@v15
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          secure: true
-          username: ${{ secrets.EMAIL_USERNAME }}
-          password: ${{ secrets.EMAIL_PASSWORD }}
-          subject: ${{ steps.send_email.outputs.email_title }}
-          to: ${{ secrets.EMAIL_DEV }}
-          from: ${{ secrets.EMAIL_USERNAME }}>
-          body: ""
-          attachments: spreadsheet/financial_discount.xlsx
+#      - name: Debug email
+#        run: |
+#          echo "Sending from: Amine Upwork <${{ secrets.EMAIL_USERNAME }}>"
+#
+#
+#      - name: Send mail with attachment
+#        uses: dawidd6/action-send-mail@v15
+#        with:
+#          server_address: smtp.gmail.com
+#          server_port: 465
+#          secure: true
+#          username: ${{ secrets.EMAIL_USERNAME }}
+#          password: ${{ secrets.EMAIL_PASSWORD }}
+#          subject: ${{ steps.send_email.outputs.email_title }}
+#          to: ${{ secrets.EMAIL_DEV }}
+#          from: ${{ secrets.EMAIL_USERNAME }}>
+#          body: ""
+#          attachments: spreadsheet/financial_discount.xlsx
+#
