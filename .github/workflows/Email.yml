@@ -43,6 +43,6 @@ jobs:
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: ${{ steps.send_email.outputs.email_title }}
           to: ${{ secrets.EMAIL_DEV }}
-          from: "Amine Upwork <${{ secrets.EMAIL_USERNAME }}>"
+          from: ${{ secrets.EMAIL_USERNAME }}>
           body: ""
           attachments: spreadsheet/financial_discount.xlsx
