@@ -15,6 +15,21 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v6
 
+      - name: Pull latest changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+
+      - name: Download Financial Report
+        uses: actions/download-artifact@v4
+        with:
+          name: financial-discount
+          # This ensures the file is placed where the script expects it
+          path: .
       - name: Setup Python
         uses: actions/setup-python@v6
         with:
