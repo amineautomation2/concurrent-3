@@ -161,13 +161,13 @@ def read_json(filename: str):
 
 
 def fetch_with_backoff(
-    url, headers=get_random_user_agent(), cookies=None, max_retries=3, base_delay=2
+    url, headers=get_random_user_agent(), cookies=None, max_retries=5, base_delay=2
 ):
     for attempt in range(max_retries):
         try:
             # Using curl_cffi to mimic a real browser (e.g., Chrome)
             response = requests.get(
-                url, headers=headers, cookies=cookies, impersonate="chrome", timeout=10
+                url, headers=headers, cookies=cookies, impersonate="chrome", timeout=20
             )
 
             # If successful, return the response

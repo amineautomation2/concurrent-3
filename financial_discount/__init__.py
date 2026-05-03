@@ -66,7 +66,7 @@ def financial_discount_runner(id_worker: int, max_worker: int) -> None:
         if url:
             isin = isin_from_pdf(url)
             fund.update(dict(isin=isin))
-        delay(2, 4)
+        delay(5, 10)
 
     csv = f"financial_discount_{id_worker}_isin.csv"
     fields = ["index", "name", "isin", "url"]
